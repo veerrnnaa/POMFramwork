@@ -13,7 +13,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class Driver {
 
-        private static WebDriver driver;
+        private static WebDriver driver; //we used abstrction here
 
         private Driver() {
         }

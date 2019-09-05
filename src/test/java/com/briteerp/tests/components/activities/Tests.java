@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 
-public class Tests extends TestBase{
+public  class Tests extends TestBase{
 
     Pages pages = new Pages();
 

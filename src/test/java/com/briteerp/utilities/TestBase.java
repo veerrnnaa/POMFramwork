@@ -7,10 +7,10 @@ import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase {
+public  class TestBase {
     protected WebDriver driver;
     protected Actions action;
-    protected Pages Pages;
+    protected Pages pages;
 
     @BeforeMethod
     public void setup(){
@@ -22,7 +22,7 @@ public class TestBase {
 
     }
 
-@AfterClass
+    @AfterClass
     public void tearDown(){
         driver.close();
 }
